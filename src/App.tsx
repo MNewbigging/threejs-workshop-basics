@@ -11,7 +11,8 @@ interface AppProps {
 export const App: React.FC<AppProps> = ({ appState }) => {
   return (
     <div className="app">
-      <canvas id="canvas"></canvas>
+      hello there
+      {/* <canvas id="canvas"></canvas> */}
     </div>
   );
 };
